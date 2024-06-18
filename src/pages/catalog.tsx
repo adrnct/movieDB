@@ -24,7 +24,7 @@ export const Catalog = (props: Props) => {
     const page = useRef(1)
     const totalPage = useRef(2)
     const loadingRef = useRef(false)
-    const [onLoading, setOnLoading] = useState(false)
+    const [, setOnLoading] = useState(false)
     const location = useLocation()
     const navigate = useNavigate()
     const { listTitle } = useParams<any>()
